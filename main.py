@@ -41,11 +41,8 @@ class LockerWindow:
         self.root.bind("<Alt-F4>", self.block_close)
         self.root.bind("<Escape>", self.block_close)
         self.root.bind("<Alt-F4>", self.block_close)
-        self.root.bind("<Ctrl>", self.block_close)
-        self.root.bind("<Alt-F4>", self.block_close)
-        self.root.bind("<Alt>", self.block_close)
-        self.root.bind("<Alt-F4>", self.block_close)
-        self.root.bind("<Del>", self.block_close)
+        self.root.bind("<Control>", self.block_close)
+        
 
         title = tk.Label(
             root,
